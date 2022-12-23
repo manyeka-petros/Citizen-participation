@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className='nav2'>
         <a href=''>HOME</a>
         <a href=''>NDAKATULO</a>
-        <a href=''>TRADITONAL DANCE</a>
+        <a href='tradit'>TRADITONAL DANCE</a>
         <a href=''>YOUTH ACTIVITEI</a>
         <a href=''>YOUTH COMPTI</a>
         <a href=''>ABOUT</a>

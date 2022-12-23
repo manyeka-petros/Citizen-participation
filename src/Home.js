@@ -9,6 +9,16 @@ const Home = () => {
       dance = 'manganja'
       price = '2309'
       />
+      <HomeCard
+      titl = 'mapoto'
+      dance = 'manganja'
+      price = '2309'
+      />
+      <HomeCard
+      titl = 'mapoto'
+      dance = 'manganja'
+      price = '2309'
+      />
     </div>
   )
 }
