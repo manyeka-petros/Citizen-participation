@@ -1,0 +1,46 @@
+.yout{
+    width: 100%;
+    text-align: center;
+    padding: 4rem 0;
+}
+.image-container{
+    --gap :1rem;
+    --num-cols :var(5);
+    --row-hieght:var(300px);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols),1fr);
+    margin: auto;
+    padding: 1rem 0;
+    gap: var(--gap);
+}
+.yout{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.yout  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.span-3{
+    grid-column: span 3;
+}
+.image-grid-row-2{
+    grid-column: span 2 ;
+}
+
+@media screen and (max-width:700px){
+
+    .image-container{
+        --gap :1rem;
+        --num-cols :var(5);
+        --row-hieght:var(200px);
+    
+
+    }
+    .span-3{
+        grid-column: span 2;
+    }
+    
+}

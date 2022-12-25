@@ -16,7 +16,7 @@ const Navbar = () => {
         <a href='/'>HOME</a>
         <a href=''>POEMS</a>
         <a href='tradit'>TRA DANCES</a>
-        <a href=''>YOUTH-ACTIVITEI</a>
+        <a href='youth'>YOUTH-ACTIVITE</a>
         <a href=''>COMPTI</a>
         <a href=''>ABOUT</a>
     </div>
