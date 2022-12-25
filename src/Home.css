@@ -33,5 +33,12 @@
     flex-direction: column;
     color: white;
     font-weight: bold;
+    align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cit >.bt{
+    width: 14%;
+    text-align: center;
+    align-items: center;
+    padding: 12px;
 }

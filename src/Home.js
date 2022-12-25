@@ -14,6 +14,7 @@ const Home = () => {
       <div className='cit'>
         <h1>WELCOME TO UNIMA CITIZEN PARTICIPATION</h1>
         <h3>Join us for more activities</h3>
+        <button className='btn btn-primary bt'> Lets Get Started</button>
       </div>
     </div>
   )

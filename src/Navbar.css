@@ -48,16 +48,19 @@ a{
     }
     
     .mobile-menu{
-        position: absolute;
+      
        display: flex;
        flex-direction: column;
        width: 100%;
        left: 0;
-       color: white;
+      color: blue;
+      
        top: -100vh;
-       background-color: gray;
-       height: 100%;
+       height: 80vh;
        justify-content: space-between;
+       position: absolute;
+       background-color: gray;
+       text-align: center;
        
     }
     .socio-icons:hover{
@@ -83,7 +86,7 @@ a{
         display: flex;
         flex-direction: column;
         
-        color: white;
+        color: wheat;
         padding: 0.8rem;
         border-bottom: 1px solid black;
         

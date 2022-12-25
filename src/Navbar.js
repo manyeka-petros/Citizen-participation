@@ -25,7 +25,7 @@ const Navbar = () => {
          
     </div>
 
-    <div className={clic ?'mobile-menu active':'mobile-menu'}>
+    <div className= {clic? 'mobile-menu  active':'mobile-menu'}>
     <div className='mobile-nav'>
         <a href='/'>HOME</a>
         <a href=''>POEMS</a>
