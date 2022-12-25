@@ -1,0 +1,37 @@
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#vide{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 3;
+
+}
+.overpl{
+    background-color:rgba(0, 0, 0.1, ) ;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.hero .cit{
+    position: absolute;
+    display: flex;
+    top: 0;
+   
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+   
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
